@@ -9,15 +9,18 @@ la misma carpeta
 Una vez en la carpeta se debe de escribir los siguientes comandos en la terminal
 
 1) sudo python3 cesar.py "criptografia y seguridad en redes" 9
+   
    #en este lugar se puede escribir cualqueir cosa y cambiar
    la cantidad de corrimiento
 
 2) sudo python3 pingv4.py "larycxpajorj h bnpdarmjm nw anmnb"
+
 si se cambio la frase o corrimiento se debe de escribir entre
 las comillas lo que salio del script anterior
 
 
 3) sudo python3 readv2.py cesar.pcapng
+
 para esto es necesario tener la captura
 si se cambio frase o corrimiento tambien se debe de
 hacer otra captura
