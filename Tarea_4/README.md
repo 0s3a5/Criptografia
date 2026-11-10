@@ -6,8 +6,7 @@ La captura transacciones_cifradas.pcap y la clave privada RSA son las que entreg
 Tambien se incluye el pdf del informe
 Y como ultimo se incluye el latex del informe
 
-Actividad 1 servidor SSH en Docker
-
+Actividad 1 
 Para realizar la prueba se deben descargar el Dockerfile y el sshd_config y dejarlos en la misma carpeta
 Una vez en la carpeta se debe de escribir los siguientes comandos en la terminal
 
@@ -27,12 +26,12 @@ Para detener y borrar el contenedor al terminar
 sudo docker stop servidor-ssh-lab4
 sudo docker rm servidor-ssh-lab4
 
-Actividad 2 captura con RSA, Scrypt y AES-GCM
+Actividad 2 
 
 Para realizar la prueba se deben descargar el script, la captura y la clave y dejarlos en la misma carpeta
 Una vez en la carpeta se debe de escribir los siguientes comandos en la terminal
 
-1. python3 descifrar_transacciones.py transacciones_cifradas.pcap clave_privada.pem
+python3 descifrar_transacciones.py transacciones_cifradas.pcap clave_privada.pem
    
 si todo sale bien se debe ver el PIN 4827, 40 transacciones y al final el mensaje
 40/40 transacciones descifradas y autenticadas correctamente
