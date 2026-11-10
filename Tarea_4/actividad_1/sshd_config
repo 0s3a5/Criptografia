@@ -1,0 +1,15 @@
+Port 22
+PermitRootLogin no
+PasswordAuthentication yes
+KbdInteractiveAuthentication no
+UsePAM yes
+
+# Clave de host por el algoritmo de firma
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Algoritmos criptograficos que se pidieron
+KexAlgorithms curve25519-sha256
+Ciphers aes256-ctr
+MACs hmac-sha2-256
+HostKeyAlgorithms ssh-ed25519
+PubkeyAcceptedAlgorithms ssh-ed25519
